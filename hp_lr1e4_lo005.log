@@ -1,0 +1,133 @@
+nohup: 忽略输入
+18:51:56 [INFO] 设备: cuda:1
+18:51:56 [INFO] 
+============================================================
+18:51:56 [INFO] KIRC DHFv2 多模态  15折CV  λ_wt=0.3  λ_orth=0.05  adp=128  batch=16
+18:51:56 [INFO] ============================================================
+18:51:56 [INFO]   训练集: 470人  StageIV=72  死亡事件=155
+18:51:56 [INFO]   测试集: 33人  StageIV=6  死亡事件=11
+18:51:56 [INFO]   KIRCDHFv2MM 参数: 1,588,354
+19:22:22 [INFO]   [F01 E 10] L=1.312(g=1.146,h=0.550,o=0.018)  全队列=0.6053  StageIV(hard_head)=0.2667  StageIV(global)=0.4000
+19:55:19 [INFO]   [F01 E 20] L=1.054(g=0.893,h=0.532,o=0.022)  全队列=0.6404  StageIV(hard_head)=0.2000  StageIV(global)=0.4000
+20:41:20 [INFO]   [F01 E 30] L=0.910(g=0.797,h=0.372,o=0.022)  全队列=0.6316  StageIV(hard_head)=0.2000  StageIV(global)=0.4000
+21:31:36 [INFO]   [F01 E 40] L=0.859(g=0.740,h=0.391,o=0.025)  全队列=0.6447  StageIV(hard_head)=0.2000  StageIV(global)=0.4000
+21:31:36 [INFO]   ★ Fold 01/15  全队列=0.6053  StageIV=0.2667  (StageIV=6人, 事件=5)
+21:31:36 [INFO]   训练集: 469人  StageIV=73  死亡事件=155
+21:31:36 [INFO]   测试集: 34人  StageIV=5  死亡事件=11
+21:31:36 [INFO]   KIRCDHFv2MM 参数: 1,588,354
+22:22:16 [INFO]   [F02 E 10] L=1.387(g=1.211,h=0.584,o=0.029)  全队列=0.8375  StageIV(hard_head)=0.5000  StageIV(global)=0.5000
+23:10:04 [INFO]   [F02 E 20] L=1.039(g=0.880,h=0.526,o=0.032)  全队列=0.8410  StageIV(hard_head)=0.6000  StageIV(global)=0.5000
+00:00:51 [INFO]   [F02 E 30] L=0.867(g=0.749,h=0.387,o=0.033)  全队列=0.8375  StageIV(hard_head)=0.5000  StageIV(global)=0.5000
+00:50:28 [INFO]   [F02 E 40] L=0.876(g=0.751,h=0.414,o=0.033)  全队列=0.8410  StageIV(hard_head)=0.5000  StageIV(global)=0.5000
+00:50:28 [INFO]   ★ Fold 02/15  全队列=0.8410  StageIV=0.6000  (StageIV=5人, 事件=5)
+00:50:28 [INFO]   训练集: 469人  StageIV=73  死亡事件=156
+00:50:28 [INFO]   测试集: 34人  StageIV=5  死亡事件=10
+00:50:29 [INFO]   KIRCDHFv2MM 参数: 1,588,354
+01:40:17 [INFO]   [F03 E 10] L=1.351(g=1.122,h=0.760,o=0.027)  全队列=0.7574  StageIV(hard_head)=0.4000  StageIV(global)=0.7000
+02:28:54 [INFO]   [F03 E 20] L=1.148(g=1.018,h=0.429,o=0.028)  全队列=0.7970  StageIV(hard_head)=0.6000  StageIV(global)=0.8000
+03:20:46 [INFO]   [F03 E 30] L=0.921(g=0.776,h=0.478,o=0.031)  全队列=0.7970  StageIV(hard_head)=0.6000  StageIV(global)=0.8000
+04:13:04 [INFO]   [F03 E 40] L=0.804(g=0.727,h=0.252,o=0.031)  全队列=0.8020  StageIV(hard_head)=0.7000  StageIV(global)=0.8000
+04:13:04 [INFO]   ★ Fold 03/15  全队列=0.8020  StageIV=0.7000  (StageIV=5人, 事件=4)
+04:13:04 [INFO]   训练集: 471人  StageIV=73  死亡事件=152
+04:13:04 [INFO]   测试集: 32人  StageIV=5  死亡事件=14
+04:13:04 [INFO]   KIRCDHFv2MM 参数: 1,588,354
+05:05:11 [INFO]   [F04 E 10] L=1.273(g=1.072,h=0.668,o=0.019)  全队列=0.6816  StageIV(hard_head)=0.7000  StageIV(global)=0.8000
+05:56:39 [INFO]   [F04 E 20] L=1.034(g=0.866,h=0.559,o=0.022)  全队列=0.6776  StageIV(hard_head)=0.7000  StageIV(global)=0.9000
+06:49:03 [INFO]   [F04 E 30] L=0.878(g=0.749,h=0.425,o=0.023)  全队列=0.6898  StageIV(hard_head)=1.0000  StageIV(global)=1.0000
+07:42:13 [INFO]   [F04 E 40] L=0.952(g=0.804,h=0.490,o=0.024)  全队列=0.6735  StageIV(hard_head)=0.8000  StageIV(global)=0.9000
+07:42:13 [INFO]   ★ Fold 04/15  全队列=0.6898  StageIV=1.0000  (StageIV=5人, 事件=5)
+07:42:13 [INFO]   训练集: 469人  StageIV=73  死亡事件=155
+07:42:13 [INFO]   测试集: 34人  StageIV=5  死亡事件=11
+07:42:13 [INFO]   KIRCDHFv2MM 参数: 1,588,354
+08:31:47 [INFO]   [F05 E 10] L=1.242(g=1.063,h=0.593,o=0.014)  全队列=0.6982  StageIV(hard_head)=0.4444  StageIV(global)=0.8889
+09:09:17 [INFO]   [F05 E 20] L=1.055(g=0.874,h=0.602,o=0.015)  全队列=0.7027  StageIV(hard_head)=0.4444  StageIV(global)=0.8889
+09:48:17 [INFO]   [F05 E 30] L=0.847(g=0.737,h=0.363,o=0.019)  全队列=0.7523  StageIV(hard_head)=0.4444  StageIV(global)=0.8889
+10:47:39 [INFO]   [F05 E 40] L=0.823(g=0.727,h=0.315,o=0.020)  全队列=0.7477  StageIV(hard_head)=0.4444  StageIV(global)=0.8889
+10:47:39 [INFO]   ★ Fold 05/15  全队列=0.6982  StageIV=0.4444  (StageIV=5人, 事件=3)
+10:47:39 [INFO]   训练集: 470人  StageIV=75  死亡事件=158
+10:47:39 [INFO]   测试集: 33人  StageIV=3  死亡事件=8
+10:47:39 [INFO]   KIRCDHFv2MM 参数: 1,588,354
+11:29:17 [INFO]   [F06 E 10] L=1.271(g=1.039,h=0.768,o=0.024)  全队列=0.7821  StageIV(hard_head)=nan  StageIV(global)=nan
+12:05:06 [INFO]   [F06 E 20] L=0.934(g=0.808,h=0.415,o=0.028)  全队列=0.7051  StageIV(hard_head)=nan  StageIV(global)=nan
+12:40:35 [INFO]   [F06 E 30] L=0.917(g=0.796,h=0.399,o=0.031)  全队列=0.6923  StageIV(hard_head)=nan  StageIV(global)=nan
+13:12:50 [INFO]   [F06 E 40] L=0.805(g=0.696,h=0.360,o=0.029)  全队列=0.6923  StageIV(hard_head)=nan  StageIV(global)=nan
+13:13:08 [INFO]   ★ Fold 06/15  全队列=0.6923  StageIV=nan  (StageIV=3人, 事件=3)
+13:13:08 [INFO]   训练集: 468人  StageIV=73  死亡事件=156
+13:13:08 [INFO]   测试集: 35人  StageIV=5  死亡事件=10
+13:13:08 [INFO]   KIRCDHFv2MM 参数: 1,588,354
+13:44:19 [INFO]   [F07 E 10] L=1.226(g=1.031,h=0.648,o=0.018)  全队列=0.6688  StageIV(hard_head)=0.7143  StageIV(global)=0.2857
+14:16:58 [INFO]   [F07 E 20] L=0.962(g=0.845,h=0.385,o=0.023)  全队列=0.6433  StageIV(hard_head)=0.5714  StageIV(global)=0.5714
+14:48:17 [INFO]   [F07 E 30] L=0.996(g=0.844,h=0.503,o=0.025)  全队列=0.5924  StageIV(hard_head)=0.7143  StageIV(global)=0.2857
+15:22:32 [INFO]   [F07 E 40] L=0.913(g=0.776,h=0.452,o=0.024)  全队列=0.5987  StageIV(hard_head)=0.5714  StageIV(global)=0.1429
+15:22:32 [INFO]   ★ Fold 07/15  全队列=0.6688  StageIV=0.7143  (StageIV=5人, 事件=4)
+15:22:32 [INFO]   训练集: 470人  StageIV=73  死亡事件=159
+15:22:32 [INFO]   测试集: 33人  StageIV=5  死亡事件=7
+15:22:32 [INFO]   KIRCDHFv2MM 参数: 1,588,354
+16:11:49 [INFO]   [F08 E 10] L=1.238(g=1.081,h=0.520,o=0.023)  全队列=0.6200  StageIV(hard_head)=0.5556  StageIV(global)=0.2222
+16:54:38 [INFO]   [F08 E 20] L=0.960(g=0.807,h=0.507,o=0.027)  全队列=0.5667  StageIV(hard_head)=0.5556  StageIV(global)=0.2222
+17:29:12 [INFO]   [F08 E 30] L=0.830(g=0.733,h=0.320,o=0.029)  全队列=0.5667  StageIV(hard_head)=0.4444  StageIV(global)=0.2222
+18:05:39 [INFO]   [F08 E 40] L=0.821(g=0.684,h=0.452,o=0.029)  全队列=0.5733  StageIV(hard_head)=0.4444  StageIV(global)=0.2222
+18:05:39 [INFO]   ★ Fold 08/15  全队列=0.6200  StageIV=0.5556  (StageIV=5人, 事件=4)
+18:05:39 [INFO]   训练集: 469人  StageIV=73  死亡事件=156
+18:05:39 [INFO]   测试集: 34人  StageIV=5  死亡事件=10
+18:05:39 [INFO]   KIRCDHFv2MM 参数: 1,588,354
+18:39:42 [INFO]   [F09 E 10] L=1.323(g=1.114,h=0.694,o=0.019)  全队列=0.8030  StageIV(hard_head)=0.6000  StageIV(global)=0.8000
+19:15:34 [INFO]   [F09 E 20] L=1.013(g=0.886,h=0.420,o=0.023)  全队列=0.7635  StageIV(hard_head)=0.6000  StageIV(global)=0.5000
+19:51:51 [INFO]   [F09 E 30] L=0.934(g=0.768,h=0.546,o=0.027)  全队列=0.8030  StageIV(hard_head)=0.7000  StageIV(global)=0.8000
+20:25:51 [INFO]   [F09 E 40] L=0.843(g=0.718,h=0.414,o=0.027)  全队列=0.8030  StageIV(hard_head)=0.7000  StageIV(global)=0.6000
+20:25:51 [INFO]   ★ Fold 09/15  全队列=0.8030  StageIV=0.7000  (StageIV=5人, 事件=4)
+20:25:51 [INFO]   训练集: 470人  StageIV=73  死亡事件=156
+20:25:51 [INFO]   测试集: 33人  StageIV=5  死亡事件=10
+20:25:53 [INFO]   KIRCDHFv2MM 参数: 1,588,354
+21:00:37 [INFO]   [F10 E 10] L=1.258(g=1.075,h=0.605,o=0.031)  全队列=0.5236  StageIV(hard_head)=0.7000  StageIV(global)=0.4000
+21:35:02 [INFO]   [F10 E 20] L=0.961(g=0.819,h=0.467,o=0.030)  全队列=0.5131  StageIV(hard_head)=0.5000  StageIV(global)=0.3000
+22:09:39 [INFO]   [F10 E 30] L=0.823(g=0.712,h=0.366,o=0.028)  全队列=0.5079  StageIV(hard_head)=0.5000  StageIV(global)=0.4000
+22:44:48 [INFO]   [F10 E 40] L=0.816(g=0.692,h=0.406,o=0.031)  全队列=0.5183  StageIV(hard_head)=0.5000  StageIV(global)=0.4000
+22:44:48 [INFO]   ★ Fold 10/15  全队列=0.5236  StageIV=0.7000  (StageIV=5人, 事件=5)
+22:44:48 [INFO]   训练集: 471人  StageIV=72  死亡事件=151
+22:44:48 [INFO]   测试集: 32人  StageIV=6  死亡事件=15
+22:44:48 [INFO]   KIRCDHFv2MM 参数: 1,588,354
+23:20:32 [INFO]   [F11 E 10] L=1.166(g=1.010,h=0.517,o=0.021)  全队列=0.4805  StageIV(hard_head)=0.4286  StageIV(global)=0.3571
+23:55:39 [INFO]   [F11 E 20] L=1.049(g=0.884,h=0.546,o=0.029)  全队列=0.4805  StageIV(hard_head)=0.3571  StageIV(global)=0.4286
+00:30:46 [INFO]   [F11 E 30] L=0.806(g=0.686,h=0.393,o=0.026)  全队列=0.4766  StageIV(hard_head)=0.3571  StageIV(global)=0.4286
+01:06:40 [INFO]   [F11 E 40] L=0.755(g=0.638,h=0.386,o=0.031)  全队列=0.4922  StageIV(hard_head)=0.3571  StageIV(global)=0.4286
+01:06:40 [INFO]   ★ Fold 11/15  全队列=0.4805  StageIV=0.4286  (StageIV=6人, 事件=4)
+01:06:40 [INFO]   训练集: 470人  StageIV=72  死亡事件=155
+01:06:40 [INFO]   测试集: 33人  StageIV=6  死亡事件=11
+01:06:40 [INFO]   KIRCDHFv2MM 参数: 1,588,354
+01:41:28 [INFO]   [F12 E 10] L=1.330(g=1.131,h=0.660,o=0.022)  全队列=0.7309  StageIV(hard_head)=0.4667  StageIV(global)=0.5333
+02:16:48 [INFO]   [F12 E 20] L=0.990(g=0.849,h=0.468,o=0.024)  全队列=0.7671  StageIV(hard_head)=0.4667  StageIV(global)=0.4667
+02:51:08 [INFO]   [F12 E 30] L=0.871(g=0.738,h=0.438,o=0.023)  全队列=0.7831  StageIV(hard_head)=0.4667  StageIV(global)=0.5333
+03:22:11 [INFO]   [F12 E 40] L=0.875(g=0.726,h=0.492,o=0.025)  全队列=0.8072  StageIV(hard_head)=0.4667  StageIV(global)=0.5333
+03:22:11 [INFO]   ★ Fold 12/15  全队列=0.7309  StageIV=0.4667  (StageIV=6人, 事件=5)
+03:22:11 [INFO]   训练集: 468人  StageIV=72  死亡事件=153
+03:22:11 [INFO]   测试集: 35人  StageIV=6  死亡事件=13
+03:22:11 [INFO]   KIRCDHFv2MM 参数: 1,588,354
+03:52:48 [INFO]   [F13 E 10] L=1.260(g=1.067,h=0.640,o=0.021)  全队列=0.6408  StageIV(hard_head)=0.7143  StageIV(global)=0.5714
+04:24:08 [INFO]   [F13 E 20] L=1.032(g=0.895,h=0.452,o=0.028)  全队列=0.6939  StageIV(hard_head)=0.6429  StageIV(global)=0.6429
+04:53:19 [INFO]   [F13 E 30] L=0.824(g=0.719,h=0.346,o=0.029)  全队列=0.7102  StageIV(hard_head)=0.5714  StageIV(global)=0.6429
+05:22:15 [INFO]   [F13 E 40] L=0.827(g=0.682,h=0.478,o=0.030)  全队列=0.6980  StageIV(hard_head)=0.5000  StageIV(global)=0.5000
+05:22:15 [INFO]   ★ Fold 13/15  全队列=0.6408  StageIV=0.7143  (StageIV=6人, 事件=4)
+05:22:15 [INFO]   训练集: 468人  StageIV=72  死亡事件=150
+05:22:15 [INFO]   测试集: 35人  StageIV=6  死亡事件=16
+05:22:15 [INFO]   KIRCDHFv2MM 参数: 1,588,354
+05:51:04 [INFO]   [F14 E 10] L=1.260(g=1.067,h=0.641,o=0.018)  全队列=0.7345  StageIV(hard_head)=0.7273  StageIV(global)=0.6364
+06:19:40 [INFO]   [F14 E 20] L=1.017(g=0.871,h=0.484,o=0.024)  全队列=0.6921  StageIV(hard_head)=0.7273  StageIV(global)=0.6364
+06:47:48 [INFO]   [F14 E 30] L=0.973(g=0.812,h=0.533,o=0.024)  全队列=0.7034  StageIV(hard_head)=0.7273  StageIV(global)=0.7273
+07:16:16 [INFO]   [F14 E 40] L=0.844(g=0.728,h=0.382,o=0.023)  全队列=0.7119  StageIV(hard_head)=0.7273  StageIV(global)=0.7273
+07:16:16 [INFO]   ★ Fold 14/15  全队列=0.7345  StageIV=0.7273  (StageIV=6人, 事件=4)
+07:16:16 [INFO]   训练集: 470人  StageIV=73  死亡事件=157
+07:16:16 [INFO]   测试集: 33人  StageIV=5  死亡事件=9
+07:16:16 [INFO]   KIRCDHFv2MM 参数: 1,588,354
+07:45:03 [INFO]   [F15 E 10] L=1.358(g=1.137,h=0.733,o=0.019)  全队列=0.8788  StageIV(hard_head)=0.7000  StageIV(global)=0.6000
+08:12:49 [INFO]   [F15 E 20] L=1.114(g=0.923,h=0.634,o=0.024)  全队列=0.8606  StageIV(hard_head)=0.7000  StageIV(global)=0.7000
+08:38:40 [INFO]   [F15 E 30] L=0.888(g=0.754,h=0.443,o=0.026)  全队列=0.8667  StageIV(hard_head)=0.7000  StageIV(global)=0.8000
+09:02:53 [INFO]   [F15 E 40] L=0.880(g=0.749,h=0.430,o=0.026)  全队列=0.8606  StageIV(hard_head)=0.7000  StageIV(global)=0.8000
+09:02:53 [INFO]   ★ Fold 15/15  全队列=0.8788  StageIV=0.7000  (StageIV=5人, 事件=5)
+09:02:53 [INFO] 
+============================================================
+09:02:53 [INFO] KIRC DHFv2 多模态 最终结果 (15折CV):
+09:02:53 [INFO]   全队列    C-index: 0.6940 ± 0.1076
+09:02:53 [INFO]   Stage IV  C-index: 0.6227 ± 0.1731
+09:02:53 [INFO] ============================================================
+09:02:54 [INFO] 结果已保存: /data2/wanghy/first/KIRC/results_dhfv2_mm/kirc_dhfv2_mm_lw0.3_lo0.05_adp128_p4096.json
